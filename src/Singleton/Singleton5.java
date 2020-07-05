@@ -10,10 +10,10 @@ package Singleton;
  * 线程安全、防止反序列化
  */
 public enum  Singleton5 {
+
     SINGLETON_5;
 
-    private void test(){
-
+    private void test() {
     }
 
     public static void main(String[] args) {

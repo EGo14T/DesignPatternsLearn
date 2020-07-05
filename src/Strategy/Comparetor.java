@@ -8,6 +8,8 @@ import java.util.Comparator;
  * Date：Created in 2020/7/2
  * Description:
  */
+
+@FunctionalInterface
 public interface Comparetor<T> {
     int compare(T o1, T o2);
 }
